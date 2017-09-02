@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Salade choux blanc"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Salade choux saumon"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Salade wakame"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Soupe miso"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Riz nature"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Riz vinaigré au sésame"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Crevettes panées"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nems crevette"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+            <Button
+                android:layout_width="25dp"
+                android:layout_height="wrap_content"
+                android:text="Brochette boulette poulet"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Brochette de poulet"/>
+            <Button
+                android:id="@+id/boeuffrom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Brochette boeuf fromage"/>
+            <Button
+                android:id="@+id/brochsaumon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Brochette saumon"/>
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+            <Button
+                android:id="@+id/brochthon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Brochette thon"/>
+            <Button
+                android:id="@+id/pouletMarine"
+                android:layout_width="25dp"
+                android:layout_height="wrap_content"
+                android:text="Poulet mariné frit"/>
+            <Button
+                android:id="@+id/edamame"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Edamame"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Supprimé"/>
+        </TableRow>
+
+    </TableLayout>
+</LinearLayout>
